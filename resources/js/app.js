@@ -26,12 +26,12 @@ const Bar = { template: '<div>bar</div>' }
 // We'll talk about nested routes later.
 const routes = [
     {
-        path: '/',
+        path: '/home',
         component: require('./components/Dashboard.vue').default
     },
     {
         path: '/dashboard',
-        component: require('./components/Dashboard.vue').default
+        component: require('./components/ExampleComponent1.vue').default
     }, {
         path: '/identitas-sekolah',
         component: require('./components/IdentitasSekolah.vue').default
@@ -39,7 +39,11 @@ const routes = [
     {
         path: '/profile',
         component: require('./components/Profile.vue').default
-    }
+    },
+    {
+        path: '/users',
+        component: require('./components/Users.vue').default
+    },
 ]
 
 // 3. Create the router instance and pass the `routes` option

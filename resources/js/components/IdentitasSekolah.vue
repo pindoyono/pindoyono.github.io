@@ -265,7 +265,6 @@
                             </div>
                             <!-- /.card-footer -->
                     </form>
-
                     <!-- /.row -->
                 </div>
                 <!-- /.card-body -->
