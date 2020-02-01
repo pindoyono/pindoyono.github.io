@@ -30,13 +30,16 @@ const routes = [
         component: require('./components/Dashboard.vue').default
     },
     {
-        path: '/si/dashboard',
+        path: '/dashboard',
         component: require('./components/Dashboard.vue').default
     }, {
-        path: '/si/identitas-sekolah',
+        path: '/identitas-sekolah',
         component: require('./components/IdentitasSekolah.vue').default
     },
-    { path: '/si/profile', component: Bar }
+    {
+        path: '/profile',
+        component: require('./components/Profile.vue').default
+    }
 ]
 
 // 3. Create the router instance and pass the `routes` option

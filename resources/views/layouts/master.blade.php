@@ -78,7 +78,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
             <li class="nav-item">
-                <router-link to="/si/dashboard" class="nav-link">
+                <router-link to="/dashboard" class="nav-link">
                 <i class="nav-icon fas fa-tachometer-alt cyan"></i>
                 <p>
                   Dashboard
@@ -97,7 +97,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <ul class="nav nav-treeview">
                 <li class="nav-item">
                   <router-link to="/identitas-sekolah" class="nav-link">
-                    <i class="fas fa-users nav-icon"></i>
+                    <i class="fas fa-school nav-icon"></i>
                     <p>Identitas Sekolah</p>
                   </router-link>
                 </li>
@@ -111,7 +111,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </li>
 
             <li class="nav-item">
-              <router-link to="/si/profile" class="nav-link">
+              <router-link to="/profile" class="nav-link">
                 <i class="nav-icon fas fa-user-alt orange"></i>
                 <p>
                   Profile
